@@ -195,3 +195,31 @@ margin-right: 50px;
     display: block;
     margin-bottom: 40px;
 }
+
+.footer {
+height: 110px;
+}
+
+.footer-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-right: 25px;
+}
+
+.footer-nav-list {
+    display: flex;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 35px;
+}
